@@ -1,0 +1,16 @@
+<form name="form1" action="controllerUpdate" method="post">
+    <fieldset>
+        <legend>Dados do produto</legend>
+        <input type="hidden" name="id" id="id" placeholder="ID:" value="{{id}}"><br>
+        <input type="text" name="tipo" id="tipo" placeholder="Tipo:"><br>
+        <input type="text" name="marca" id="marca" placeholder="Marca:"><br>
+        <input type="text" name="modelo" id="modelo" placeholder="Modelo:"><br>
+        <input type="text" name="valor" id="valor" placeholder="Valor:"><br>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Ações</legend>
+        <input type="submit" name="btnSubmit" id="btnSubmit" value="ATUALIZAR">
+        <input type="reset" id="btnReset" value="LIMPAR">
+    </fieldset>
+</form>

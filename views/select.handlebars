@@ -1,0 +1,54 @@
+<!--<table>
+    <tr>
+        <td>Ação</td>
+        <td>Id</td>
+        <td>Tipo</td>
+        <td>Marca</td>
+        <td>Modelo</td>
+        <td>Valor</td>
+    </tr>
+
+    {{#data}}
+        <tr>
+            <td>
+                <a href="update/{{id}}">Editar</a>
+                <a href="deletar/{{id}}" class="deletar">Deletar</a>
+            </td>
+            <td>{{id}}</td>
+            <td>{{tipo}}</td>
+            <td>{{marca}}</td>
+            <td>{{modelo}}</td>
+            <td>{{valor}}</td>
+        </tr>
+    {{/data}}
+</table>
+-->
+<div id="select">
+    <table>
+        <tr>
+            <td>Ação</td>
+            <td>Id</td>
+            <td>Tipo</td>
+            <td>Marca</td>
+            <td>Modelo</td>
+            <td>Valor</td>
+        </tr>
+
+        {{#data}}
+            <tr>
+                <td>
+                    <!--<a href="update/{{id}}">Editar</a>-->
+                    <a href="deletar/{{id}}" class="deletar">Deletar</a>
+                </td>
+                <td>{{id}}</td>
+                <td>{{tipo}}</td>
+                <td>{{marca}}</td>
+                <td>{{modelo}}</td>
+                <td>{{valor}}</td>
+            </tr>
+        {{/data}}
+    </table>
+    <div id="voltar">
+        <a href="http://localhost:3000/">VOLTAR</a>
+    </div>
+</div>
